@@ -72,7 +72,7 @@ export default {
   /*
    ** set URl Axios
    */
-  axios: { baseURL: "https://young-beach-50104.herokuapp.com/" },
+  axios: { baseURL: "https://dry-garden-12154.herokuapp.com/" },
   /*
   /*
    ** Nuxt.js modules
