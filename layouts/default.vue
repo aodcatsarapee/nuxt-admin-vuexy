@@ -10,6 +10,7 @@
     <Footer />
   </div>
 </template>
+
 <style>
 body {
   font-family: "Mitr", sans-serif;
@@ -37,7 +38,7 @@ li {
 .content-wrapper {
   min-height: 85vh;
 }
-
+/* ant css */
 .ant-pagination-item-active {
   font-weight: 500;
   background: #fff;
@@ -51,5 +52,19 @@ li {
 }
 .ant-pagination a {
   color: #6f42c1 !important;
+}
+/* ant-btn-primary */
+.ant-btn-primary {
+  color: #fff;
+  background-color: #6f42c1;
+  border-color: #6f42c1;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.12);
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.045);
+}
+
+.ant-btn-primary:hover {
+  color: #fff;
+  background-color: #6f42c1;
+  border-color: #6f42c1;
 }
 </style>
