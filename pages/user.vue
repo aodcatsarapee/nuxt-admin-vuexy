@@ -167,6 +167,7 @@
       @afterClose="modalAddCancel"
       :okText="'ตกลง'"
       :cancelText="'ยกเลิก'"
+      :width="1000"
     >
       <UserAddModal :data_user="modal_add" :data_role="data_role" />
     </a-modal>
@@ -178,6 +179,7 @@
       @afterClose="modalEditCancel"
       :okText="'ตกลง'"
       :cancelText="'ยกเลิก'"
+      :width="1000"
     >
       <UserEditModal :data_user="modal_edit" :data_role="data_role" />
     </a-modal>

@@ -16,6 +16,7 @@
             v-model="data_user.data.user_password_new"
             class="form-control"
             required
+            minlength="6"
           />
         </div>
       </div>
@@ -27,6 +28,7 @@
             v-model="data_user.data.user_password_confirm"
             class="form-control"
             required
+            minlength="6"
           />
         </div>
       </div>
