@@ -1,0 +1,21 @@
+{
+  "name": "vuex-admin",
+  "version": "1.0.0",
+  "description": "My kryptonian Nuxt.js project",
+  "author": "sorasak tonken",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxt/components": "^0.3.4",
+    "@nuxtjs/axios": "^5.8.0",
+    "ant-design-vue": "^1.4.10",
+    "cookieparser": "^0.1.0",
+    "js-cookie": "^2.2.0",
+    "nuxt": "^2.0.0"
+  }
+}

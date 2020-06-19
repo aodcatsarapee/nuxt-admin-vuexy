@@ -1,0 +1,50 @@
+{
+  "data": [
+    {
+      "group_menu": {
+        "group_menu_id": "1",
+        "group_menu_name": "ควบคุมระบบ",
+        "group_menu_icon": "fas fa-cog",
+        "menu": [
+          {
+            "menu_id": "1",
+            "menu_name": "จัดการกลุ่มเมนู",
+            "menu_link": "groupmenu",
+            "menu_sort": "1",
+            "menu_icon": "far fa-circle nav-icon"
+          },
+          {
+            "menu_id": "2",
+            "menu_name": "จัดการสิทธิ์",
+            "menu_link": "role",
+            "menu_sort": "2",
+            "menu_icon": "far fa-circle nav-icon"
+          },
+          {
+            "menu_id": "3",
+            "menu_name": "จัดการผู้ใช้งาน",
+            "menu_link": "user",
+            "menu_sort": "3",
+            "menu_icon": "far fa-circle nav-icon"
+          }
+        ]
+      }
+    },
+    {
+      "group_menu": {
+        "group_menu_id": "2",
+        "group_menu_name": "ประวัติการใช้งาน",
+        "group_menu_icon": "fa fa-list",
+        "menu": [
+          {
+            "menu_id": "4",
+            "menu_name": "การเข้าใช้งานระบบ",
+            "menu_link": "loguserlogin",
+            "menu_sort": "1",
+            "menu_icon": "far fa-circle nav-icon"
+          }
+        ]
+      }
+    }
+  ]
+}
